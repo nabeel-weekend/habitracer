@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: emerald --default;
+}
+
+.active-small {
+  @apply active:scale-95 transition-all duration-250;
+}
